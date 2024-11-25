@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, #containerEsterno{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerEsterno #titolo{
+    margin: auto;
+    text-align: center;
+}
+
+.form-control.custom-input {
+    background-color: #91ADC2;
+}
+
+#containerEsterno #titolo h1 {
+    font-weight: bolder;
+}
+
+#containerEsterno #titolo h2{
+    padding-top: 0.3%;
+    font-weight: bold;
+}
+
+#containerEsterno #campiRegistrazione{
+    margin: auto;
+    margin-top: -7%;
+}
+
+#containerEsterno #campiRegistrazione #sx{
+    margin: auto;
+}
+
+#containerEsterno #campiRegistrazione #nameSurname {
+    margin: auto;
+    border: none;
+    padding-bottom: 1%;
+}
+
+#containerEsterno #campiRegistrazione #nameSurname #name {
+    margin: auto;
+    border: none;
+    align-items: start;
+}
+
+#containerEsterno #campiRegistrazione #nameSurname #surname {
+    margin: auto;
+    justify-content: end;
+    border: none;
+}
+
+#containerEsterno #campiRegistrazione #eMail {
+    margin: auto;
+    border: none;
+    padding-bottom: 1%;
+}
+
+#containerEsterno #campiRegistrazione #password {
+    margin: auto;
+    border: none;
+    padding-bottom: 1%;
+}
+
+#containerEsterno #campiRegistrazione #rePassword {
+    margin: auto;
+    border: none;
+    padding-bottom: 1%;
+}
+
+#containerEsterno #campiRegistrazione #codButton {
+    margin: auto;
+    border: none;
+}
+
+#containerEsterno #campiRegistrazione #codButton #condizioni {
+    margin: auto;
+    align-items: start;
+
+}
+
+#containerEsterno #campiRegistrazione #codButton #condizioni label {
+    margin-left: 1%;
+}
+
+#containerEsterno #campiRegistrazione #codButton #condizioni a {
+    color:#9FCC2E;
+}
+
+#containerEsterno #campiRegistrazione #codButton #signUp {
+    justify-content: end;
+    border: none;
+}
+
+#containerEsterno #campiRegistrazione #codButton #signUp button {
+    right: 0;
+    background-color: #26532B;
+    border-color: #26532B;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #containerAlbum{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #containerAlbum #infoAlbum{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#containerTotale #containerAlbum #infoAlbum #fotoAlbum{
+    margin: auto;
+}
+
+#containerTotale #containerAlbum #infoAlbum #fotoAlbum #immagine{
+    width: 95%;
+}
+
+#containerTotale #containerAlbum #infoAlbum #dettagli{
+    margin: auto;
+    background-color: #26532B;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+#containerTotale #containerAlbum #infoAlbum #dettagli #nome{
+    margin: auto;
+}
+
+#containerTotale #containerAlbum #infoAlbum #dettagli #autore{
+    margin: auto;
+}
+
+#containerTotale #containerAlbum #infoAlbum #dettagli #dataUscita{
+    margin: auto;
+}
+
+#containerTotale #containerAlbum #contenitoreCanzoni{
+    margin: auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#containerTotale #containerAlbum #contenitoreCanzoni #canzoniAlbum{
+    margin: auto;
+    padding: 1%;
+    align-items: center;
+    width: 50%;
+    background-color: #26532B;
+    border-radius: 25px;
+}
+
+
+#containerTotale #containerAlbum #contenitoreCanzoni #canzoniAlbum #canzoni{
+    margin: auto;
+    text-align: center;
+    
+}

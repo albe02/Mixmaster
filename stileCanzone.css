@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #rigaBottone{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rigaBottone #bottone{
+    margin: auto;
+    width: 50%;
+   background-color: #9FCC2E;
+   border-color: #9FCC2E;
+}
+
+#containerTotale #rigaCanzoni{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone{
+    margin: auto;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info #fotoAlbum{
+    margin: auto;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info #fotoAlbum #copertina{
+    width: 95%;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info #infoAlbum{
+    margin: auto;
+    background-color: #26532B;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info #infoAlbum #titoloCanzone{
+    margin: auto;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info #infoAlbum #titoloAlbum{
+    margin: auto;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #info #infoAlbum #nomeArtista{
+    margin: auto;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #contenitoreAlbum{
+    margin: auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#containerTotale #rigaCanzoni #grigliaCanzone #contenitoreAlbum #album{
+    margin: auto;
+    padding: 1%;
+    align-items: center;
+    width: 50%;
+    background-color: #26532B;
+    border-radius: 25px;
+}
+
+
+#containerTotale #rigaCanzoni #grigliaCanzone #contenitoreAlbum #album #canzoniAlbum{
+    margin: auto;
+    text-align: center;
+    
+}

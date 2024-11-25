@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #informazioniPodcast{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#containerTotale #informazioniPodcast #corniceFoto{
+    margin: auto;
+}
+
+#containerTotale #informazioniPodcast #corniceFoto #foto{
+    margin: auto;
+    width: 95%;
+    
+}
+
+#containerTotale #informazioniPodcast #info{
+    margin: auto;
+    margin: auto;
+    background-color: #26532B;
+    padding: 1%;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#containerTotale #informazioniPodcast #info #nome{
+    margin: auto;
+}
+
+#containerTotale #informazioniPodcast #info #descrizione{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#containerTotale #episodiPodcast{
+    margin: auto;
+    margin-top: 1%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #episodiPodcast #frecciaSX{
+    margin: auto;
+}
+
+#containerTotale #episodiPodcast #frecciaSX svg {
+    width: 30%;
+}
+
+#containerTotale #episodiPodcast #colCard #rigaCard{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #26532B;
+    border-radius: 25px;
+    color: black;
+}
+
+#containerTotale #episodiPodcast #colCard #rigaCard #cardEpisode{
+    margin: auto;
+}
+
+#containerTotale #episodiPodcast #frecciaDX{
+    margin: auto;
+}
+
+#containerTotale #episodiPodcast #frecciaDX svg {
+    width: 30%;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card img {
+    margin: auto;
+    margin-top: 1%;
+}
+
+#cardEpisode .card-body p {
+    margin: auto;
+    margin-top: 0%;
+}

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #info{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#containerTotale #info #foto{
+    margin: auto;
+}
+
+#containerTotale #info #foto #fotoArtista{
+    margin: auto;
+    width: 95%;
+    
+}
+
+#containerTotale #info #informazioni{
+    margin: auto;
+    margin: auto;
+    background-color: #26532B;
+    padding: 1%;
+    border-radius: 25px;
+
+}
+
+#containerTotale #info #informazioni #nomeArtista{
+    margin: auto;
+}
+
+#containerTotale #info #informazioni #follower{
+    margin: auto;
+}
+
+#containerTotale #info #informazioni #genereArtista{
+    margin: auto;
+}
+
+#containerTotale #album{
+    margin: auto;
+    margin-top: 1%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #album #bottoneSXA{
+    margin: auto;
+}
+
+#containerTotale #album #bottoneSXA svg {
+    width: 30%;
+}
+
+#containerTotale #album #alb #contenitoreCard{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #26532B;
+    border-radius: 25px;
+    color: black;
+}
+
+#containerTotale #album #alb #contenitoreCard #cardAlbum{
+    margin: auto;
+}
+
+#containerTotale #album #bottoneDXA{
+    margin: auto;
+}
+
+#containerTotale #album #bottoneDXA svg {
+    width: 30%;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card img {
+    margin: auto;
+    margin-top: 1%;
+}
+
+#cardAlbum .card-body p {
+    margin: auto;
+    margin-top: 0%;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #containerColor{
+    margin: auto;
+    background-color: #91ADC2;
+    border-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+#containerTotale #containerColor #containerPlaylist{
+    margin: auto;
+    background-color: #26532B;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 25px;
+}
+
+#containerTotale #containerColor #containerPlaylist #rigaPlaylist{
+    margin: auto;
+    padding-top: 1%;
+    border-bottom: solid #E2E2E2 1px;
+    padding-bottom: 1%; 
+}
+
+.btn{
+    background-color: #9FCC2E;
+    border-color: #9FCC2E;
+    color:#E2E2E2;
+}

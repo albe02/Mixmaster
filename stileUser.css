@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale {
+    margin: auto;
+}
+
+#containerTotale #rowInfo{
+    margin: auto;
+}
+
+#containerTotale #rowInfo #containerInfo{
+    margin: auto;
+    background-color: #26532B;
+    border-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rowInfo #containerInfo #rowNomeCognome{
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rowInfo #containerInfo #rowEmail{
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rowInfo #containerInfo #rowPassword{
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rowInfo #containerInfo #rowPassword #customAlert{
+    margin: auto;
+
+}
+
+#containerTotale #rowInfo #containerInfo #rowPassword #customAlert .modal-header{
+    flex-direction: column;
+    width: 100%;   
+}
+
+#containerTotale #rowInfo #containerInfo #rowPassword #customAlert #riga1, #riga2, #riga3{
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 5%;
+    width: 100%;
+   
+}
+
+#containerTotale #rowInfo #containerInfo #save{
+    margin: auto;
+}
+  
+#containerTotale #rowEliminazione{
+    margin: auto;
+    padding-top: 1%;
+}
+
+#containerTotale #rowEliminazione div #eliminazione{
+    width: 100%;
+}
+
+.btn{
+    background-color: #91ADC2;
+    border-color: #91ADC2;
+    color:#E2E2E2;
+}
+

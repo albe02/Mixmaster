@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <title>Mix Master</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="stilePlaylistSalvate.css">
+
+</head>
+
+<body onload="getUserPlay()">
+
+  <div id="containerTotale" class="container-fluid">
+    <div id="navbar"></div>
+
+    <div id="containerPlaylist" class="container-fluid">
+      <div id="rigaPlaylist" class="row d-flex">
+        <div id="playlistInfo" class="row d-flex d-none">
+          <div id="nomePlaylist" class="col-6" playlistId=""></div>
+          <div id="bottoneInfo" class="col-3">
+            <button id="info" class="btn" onclick="">Info</button>
+          </div>
+          <div id="bottoneElimina" class="col-3">
+            <button id="elimina" class="btn" onclick="">Elimina</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="CreaPlay" class="row">
+      <button id="bottoneApri" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#customAlert">Clicca per creare una playlist</button>
+    </div>
+
+    <div id="customAlert" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <input type="text" id="nomeNuovaPlaylist" class="form-control custom-input" placeholder="Inserisci il dato">
+          </div>
+          <div class="modal-footer">
+            <button id="bottoneChiusura" type="button" class="btn btn-secondary"  data-bs-dismiss="modal">Chiudi</button>
+            <button id="bottoneCrea" type="button" class="btn btn-secondary" onclick="creaPlaylist()">Crea Playlist</button>
+          </div>
+        </div>
+      </div>
+    </div>      
+
+  </div>
+
+  <!----------------------------------------------------------------------------------------->
+
+  <script src="libb.js"></script>
+    
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

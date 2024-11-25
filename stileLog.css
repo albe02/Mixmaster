@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, #containerEsterno{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerEsterno #titolo{
+    margin: auto;
+    text-align: center;
+}
+
+.form-control.custom-input {
+    background-color: #91ADC2;
+}
+
+#containerEsterno #titolo h1 {
+    font-weight: bolder;
+}
+
+#containerEsterno #titolo h2{
+    padding-top: 0.3%;
+    font-weight: bold;
+}
+
+#containerEsterno #campiLogIn{
+    margin-top: -7%;
+    flex-direction: row;
+}
+
+#containerEsterno #campiLogIn  #sx{
+    margin: auto;
+}
+
+#containerEsterno #campiLogIn  #sx #noAccount #colonna{
+    margin: auto;
+    text-align: left;
+    padding-left: 2.5%;
+}
+
+#containerEsterno #campiLogIn  #sx #noAccount #colonna a{
+    margin: auto;
+    color: #E2E2E2;
+}
+
+#containerEsterno #campiLogIn  #eMail {
+    margin: auto;
+    border: none;
+    padding-bottom: 1%;
+}
+
+#containerEsterno #campiLogIn  #password {
+    margin: auto;
+    border: none;
+    padding-bottom: 1%;
+}
+
+#containerEsterno #campiLogIn  #keepButton {
+    margin: auto;
+}
+
+#containerEsterno #campiLogIn  #keepButton #logIn {
+    justify-content: end;
+    margin: auto;
+    margin-right: 0%;
+}
+
+#containerEsterno #campiLogIn  #keepButton #logIn button {
+    background-color: #26532B;
+    border-color: #26532B;
+}
+
+
+
+

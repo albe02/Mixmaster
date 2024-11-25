@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #rigaRicerca{
+    margin: auto;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rigaRicerca input{
+    margin: auto;
+    width: 95%;
+}
+
+#containerTotale #containerColor{
+    margin: auto;
+    margin-top: 1%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #containerColor #rigaRisultati{
+    margin: auto;
+    background-color: #26532B;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 25px;
+}
+
+#containerTotale #containerColor #rigaRisultati #songRow{
+    margin: auto;
+    padding-top: 1%;
+    border-bottom: solid #E2E2E2 1px;
+    padding-bottom: 1%; 
+}

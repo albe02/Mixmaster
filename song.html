@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mix Master</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<link rel="stylesheet" href="stileCanzone.css">
+
+</head>
+
+<body onload="avvioSong()">
+    <div id="containerTotale" class="container-fluid">
+        <div id="navbar"></div>
+        
+        <div id="rigaBottone" class="row">
+            <button id="bottone" class="btn btn-primary" onclick="goToAggiungi()">Aggiungi</button>
+        </div>
+
+        <div id="rigaCanzoni" class="row">
+            <div id="grigliaCanzone" class="container-fluid">
+                <div id="info" class="row">
+                    <div id="fotoAlbum" class="col-4">
+                        <img id="copertina" src="" albumId="" onclick="apriAlbum(this.getAttribute('albumId'))">
+                    </div>
+                    <div id="infoAlbum" class="col-8">
+                        <label for="titoloCanzone">TITOLO</label>
+                        <div id="titoloCanzone" class="row"></div>
+                        <label for="titoloAlbum">ALBUM</label>
+                        <div id="titoloAlbum" class="row" albumId="" onclick="apriAlbum(this.getAttribute('albumId'))"></div>
+                        <label for="nomeArtista">AUTORI</label>
+                        <div id="nomeArtista" class="row"></div>
+                    </div>
+                </div>
+                <div id="contenitoreAlbum" class="container-fluid">
+                    <div id="album" class="row">
+                        <div id="canzoniAlbum" class="row d-none" songId="" onclick="apriCanzone(this.getAttribute('songId'))" ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  <script src="libb.js"></script>
+</body>
+
+</html>

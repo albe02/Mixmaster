@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #rigaBottone #bottone{
+    margin: auto;
+    width: 50%;
+   background-color: #9FCC2E;
+   border-color: #9FCC2E;
+}
+
+#containerTotale #infoEpisodio{
+    margin: auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#containerTotale #infoEpisodio #immagineEpisodio{
+    margin: auto;
+}
+
+#containerTotale #infoEpisodio #immagineEpisodio #foto{
+    margin: auto;
+    width: 95%;
+    
+}
+
+#containerTotale #infoEpisodio #informazioniEpisodio{
+    margin: auto;
+    margin: auto;
+    background-color: #26532B;
+    padding: 1%;
+    border-radius: 25px;
+    width: 50%;
+
+}
+
+#containerTotale #infoEpisodio #informazioniEpisodio #info #nomeShow{
+    margin: auto;
+}
+
+#containerTotale #infoEpisodio #informazioniEpisodio #info #nomeEpisodio{
+    margin: auto;
+}
+
+#containerTotale #infoEpisodio #informazioniEpisodio #info #dataUscita{
+    margin: auto;
+}
+
+#containerTotale #tramaEpisodio{
+    margin: auto;
+    margin-top: 1%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #tramaEpisodio #containerTrama{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #26532B;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+
+}

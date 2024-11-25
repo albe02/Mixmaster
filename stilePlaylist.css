@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerTotale{
+    margin: auto;
+}
+
+#containerTotale #rigaInfo{
+    margin: auto;
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+}
+
+#containerTotale #rigaInfo #info #nomePlaylist{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#containerTotale #rigaInfo #info #autorePlaylist{
+    margin: auto;
+    text-align: center;
+}
+
+
+#containerTotale #bottoni{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#containerTotale #bottoni #rinomina{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 2%;
+    width: 30%;
+}
+
+#containerTotale #bottoni #pubblica{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 55%;
+}
+
+#containerTotale #containerCanzoni{
+    margin: auto;
+    margin-top: 1%;
+    background-color: #91ADC2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#containerTotale #containerCanzoni #bottoneSx{
+    margin: auto;
+}
+
+#containerTotale #containerCanzoni #bottoneSx svg {
+    width: 30%;
+}
+
+#containerTotale #containerCanzoni #songRow{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #26532B;
+    border-radius: 25px;
+    color: black;
+}
+
+#containerTotale #containerCanzoni #canzoni #songRow #cardSong{
+    margin: auto;
+}
+
+#containerTotale #containerCanzoni #bottoneDx{
+    margin: auto;
+}
+
+#containerTotale #containerCanzoni #bottoneDx svg {
+    width: 30%;
+}
+
+#containerTotale #containerCanzoni button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card img {
+    margin: auto;
+    margin-top: 1%;
+}
+
+#cardAlbum .card-body p {
+    margin: auto;
+    margin-top: 0%;
+}
+
+.btn{
+    background-color: #9FCC2E;
+    border-color: #9FCC2E;
+    color:#E2E2E2;
+}
+
+.modal-footer{
+    border-top: none;
+}

@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('quantify/Quantify.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+HTML, BODY, #containerEsterno{
+    background-color: #0A2463;
+    color: #E2E2E2;
+    font-family: 'Quantify', Arial, sans-serif;
+}
+
+#containerEsterno #infoProfilo{
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    justify-content: center;
+
+}
+
+#containerEsterno #infoProfilo #foto{
+    background-color: #91ADC2;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+#containerEsterno #infoProfilo #foto img{
+    width: 50%;
+    margin: auto;
+}
+
+#containerEsterno #infoProfilo #info{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding-top: 2%;
+    background-color: #91ADC2; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#containerEsterno #infoProfilo #info #nome{
+    margin: auto;
+}
+
+#containerEsterno #infoProfilo #info #cognome{
+    margin: auto;
+    margin-top: 0.1%;
+}
+
+#containerEsterno #infoProfilo #collegamentoPlaylist{
+    background-color: #91ADC2;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#containerEsterno #infoProfilo #collegamentoPlaylist svg{
+    width: 70%;
+}
+
+#containerEsterno #canzoni{
+    margin: auto;
+    padding-top: 1%;    
+}
+
+#containerEsterno #canzoni #bottoneSXC{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerEsterno #canzoni #bottoneSXC svg{
+    width: 25%;
+}
+
+#containerEsterno #canzoni #song{
+    margin: auto;
+}
+
+#containerEsterno #canzoni #bottoneDXC{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerEsterno #canzoni #bottoneDXC svg{
+    width: 25%;
+}
+
+#containerEsterno #artisti #bottoneSXAL{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerEsterno #artisti #bottoneSXAL svg{
+    width: 25%;
+}
+
+#containerEsterno #artisti{
+    margin: auto;
+    padding-top: 1%;
+}
+
+#containerEsterno #artisti #artistRow{
+    margin: auto;
+}
+
+#containerEsterno #artisti #bottoneDXAL{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerEsterno #artisti #bottoneDXAL svg{
+    width: 25%;
+}
+
+#containerEsterno #podcast{
+    margin: auto;
+    padding-top: 2%;
+}
+
+#containerEsterno #podcast #bottoneSXP{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerEsterno #podcast #bottoneSXP svg{
+    width: 25%;
+}
+
+#containerEsterno #podcast #pod{
+    margin: auto;
+}
+
+#containerEsterno #podcast #bottoneDXP{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerEsterno #podcast #bottoneDXP svg{
+    width: 25% 
+}
+
+
+.card-body button{
+    width: 65%;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card{
+    margin: auto;
+    height: 5rem;
+}
+
+
+.card img{
+    margin: auto;
+    margin-top: 1%;
+}
+
+.card {
+    margin: auto;
+    min-height: 99%;
+    max-height: 99%;
+    height: 4rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
